@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.ewps-main-heading {
+    color: #183b56;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ewps-card-1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+    padding: 15px;
+    border-radius: 15px;
+    height: 280px;
+    width: 100%;
+}
+
+.ewps-card-title {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ewps-card-description {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.card-modal-popup-button {
+    background-color: #ffffff;
+    color: #ff9f00;
+    border-radius: 30px;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+}
+
+.ewps-modal-title {
+    color: #323f4b;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.ewps-modal-description {
+    color: #323f4b;
+    font-size: 15px;
+    margin: 4px;
+}
+
+.ewps-modal-span-description {
+    color: #323f4b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.modal-button {
+    background-color: #ffffff;
+    color: #323f4b;
+    border-radius: 5px;
+    font-weight: 500;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.ewps-card-2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+    padding: 15px;
+    border-radius: 15px;
+    height: 280px;
+    width: 100%;
+}
+
+.ewps-offers {
+    color: #ff9f00;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h2 {
+    margin-bottom: 10px;
+}
+
+.product-info .price {
+    color: #f00;
+    font-size: 1.5em;
+}
+
+.cta {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    background-color: #555;
+}
+
+.product-image {
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .product-info, .product-image {
+        padding: 10px;
+    }
+}
